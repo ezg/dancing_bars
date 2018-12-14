@@ -118,6 +118,6 @@ if __name__== "__main__":
     seed = int(sys.argv[1])
     speed = max(50, int(sys.argv[2]))
     ani = SubplotAnimation(seed, speed, 1000, 5)
-    ani.save('example.mp4')
-    #plt.show()
+    #ani.save('example.mp4')
+    plt.show()
 
